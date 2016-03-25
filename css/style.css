@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.divForm {
+  text-align: center;
+  border: 1px #666 solid;
+  margin: auto;
+  width: 25%;
+  padding: 2em;
+}
