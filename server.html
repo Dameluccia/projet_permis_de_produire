@@ -11,21 +11,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<style media="screen">
-.border {
-    border: 1px solid #a2a2a2;
-}
-h1 {
-    margin: 0 0 20px 0;
-}
-
-</style>
-
 <body>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <table class="table table-radius table-striped table-hover table-responsive">
+                <table class="table table-radius table-striped table-responsive">
                     <caption class="text-center"><h1>Liste des serveurs</h1></caption>
                     <thead>
                         <tr>
@@ -34,27 +24,49 @@ h1 {
                             <th class="text-center">Equipe rouge</th>
                             <th class="text-center">Equipe verte</th>
                             <th class="text-center">Equipe jaune</th>
-                            <th class="text-center">Rejoindre</th>
+                            <th class="text-center">Total Joueurs</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Server test</td>
+                            <td class="first">Server test</td>
                             <td class="text-center">0</td>
                             <td class="text-center">0</td>
                             <td class="text-center">0</td>
                             <td class="text-center">0</td>
-                            <td class="text-center"><button type="button" class="btn btn-sm btn-default">Demande pour rejoindre</button></td>
+                            <td class="text-center">0 / 12</td>
                         </tr>
                         <tr>
-                            <td>Server test 2</td>
+                            <td class="first">Server test 2</td>
                             <td class="text-center">0</td>
                             <td class="text-center">0</td>
                             <td class="text-center">0</td>
                             <td class="text-center">0</td>
-                            <td class="text-center"><button type="button" class="btn btn-sm btn-default">Demande pour rejoindre</button></td>
+                            <td class="text-center">0 / 12</td>
+                        </tr>
+                        <tr>
+                            <td class="first">Server test 3</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0 / 12</td>
+                        </tr>
+                        <tr>
+                            <td class="first">Server test 4</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0 / 12</td>
                         </tr>
                     </tbody>
+                    <tfoot>
+                        <td class="text-center" colspan="6">
+                            <button type="button" class="btn btn-sm btn-default">Rafraichir</button>&nbsp&nbsp&nbsp
+                            <button type="button" class="btn btn-sm btn-default">Rejoindre</button>
+                        </td>
+                    </tfoot>
                 </table>
             </div>
         </div>
